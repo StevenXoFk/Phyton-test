@@ -1,5 +1,5 @@
 plata = 80000
-gasto = 70000
+gasto = 90000
 
 # If anidado y else if (elif)
 
@@ -10,3 +10,6 @@ if plata > 30000:
     print("mal económicamente")
   elif plata - gasto <= 0:
     print("Numeros rojos")
+    
+    
+print(plata - gasto)
