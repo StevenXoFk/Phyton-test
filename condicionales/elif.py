@@ -1,11 +1,12 @@
-plata = 70000
-gasto = 30000
+plata = 80000
+gasto = 70000
 
 # If anidado y else if (elif)
 
-if plata > 20000:
-  if plata - gasto < 10000 :
-  print("Mucho gasto")
-  elif plata < 20000:
-    print("pobreza")
-    
+if plata > 30000:
+  if plata - gasto >= 20000:
+    print("Bien económicamente ")
+  elif plata - gasto <= 20000:
+    print("mal económicamente")
+  elif plata - gasto <= 0:
+    print("Numeros rojos")
