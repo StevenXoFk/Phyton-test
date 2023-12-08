@@ -1,5 +1,5 @@
 plata = 80000
-gasto = 90000
+gasto = 70000
 
 # If anidado y else if (elif)
 
