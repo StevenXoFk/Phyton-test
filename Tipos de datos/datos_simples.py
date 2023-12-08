@@ -1,14 +1,14 @@
 "texto"
 'texto'
 
-""Persona:
+"""Persona:
   Nombre: Angelo
   Edad: 17
-  ""
+  """
  
- ''Persona:
+ '''Persona:
   Nombre: Angelo
-  Edad: 17''
+  Edad: 17'''
   
   40
   40.1
