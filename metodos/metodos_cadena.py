@@ -10,5 +10,7 @@ minus = cadena1.lower()
 # Convierte el capitalize() en la primera letra en mayuscula
 first_mayus = cadena2.capitalize()
 
+# Busca una cadena en otra cadena, y si no encuentra coincidencia devuelve -1
+encontrar = cadena1.find("2")
 
 print(first_mayus)
