@@ -16,7 +16,7 @@ def funcionaltura():
     print("eres bajo")
     
 """
-
+# Formato 00:00:00
 horas = 10
 minutos = 9
 segundos = 0
