@@ -1,6 +1,10 @@
-cadena1 = "hola we"
-cadena2 = "como estas we"
+cadena1 = "HOLAAAA1"
+cadena2 = "holaaaaaa2"
 
-resultado = cadena1.upper()
+mayus = cadena2.upper()
+minus = cadena1.lower()
 
-print(resultado)
+# Convierte en minuscula
+
+
+print(mayus)
