@@ -13,7 +13,13 @@ first_mayus = cadena2.capitalize()
 # Busca una cadena en otra cadena, y si no encuentra coincidencia devuelve -1
 encontrar = cadena1.find("1")
 
-# Busca una cadena en otra cadena, pero si no encuenta coincidencia devuelve un error
+# Busca una cadena en otra cadena, pero si no encuenta coincidencia devuelve un EXCEPCIÓN 
 encontrar_index = cadena2.find("2")
 
-print(encontrar)
+# Si es numerico, devuelve true, y si no false
+numerico = cadena2.isnumeric()
+
+# Si es alfanumerico de devuelve true y si no false (O sea si el str contiene numeros o la variable contiene numeros devuelve false y si solo contiene strings devuelve true
+alfanumerico = cadena1.isalpha()
+
+print(numerico)
