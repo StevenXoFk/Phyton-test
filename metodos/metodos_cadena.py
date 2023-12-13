@@ -23,6 +23,6 @@ numerico = cadena2.isnumeric()
 alfanumerico = cadena1.isalpha()
 
 # Busca una cadena en otra cadena, pero esta cuenta cuantas coincidencias hay en esa cadena
-
+contar = cadena2.count("a")
 
 print(alfanumerico)
