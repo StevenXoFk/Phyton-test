@@ -25,4 +25,11 @@ alfanumerico = cadena1.isalpha()
 # Busca una cadena en otra cadena, pero esta cuenta cuantas coincidencias hay en esa cadena
 contar = cadena2.count("a")
 
-print(alfanumerico)
+# Contamos cuántos caracteres tiene una cadena
+caracteres = len(cadena2)
+
+# Verifica si una cadena empieza con otra cadena dada, si es asi devuelve true
+empieza = cadena1.startswith("h")
+
+
+print(empieza)
