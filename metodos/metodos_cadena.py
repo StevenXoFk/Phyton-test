@@ -1,4 +1,4 @@
-cadena1 = "HOLAAAA"
+cadena1 = "holawe"
 cadena2 = "holaaaaaa2"
 
 # Convierte el upper() todo el texto en mayuscula
@@ -19,7 +19,10 @@ encontrar_index = cadena2.find("2")
 # Si es numerico, devuelve true, y si no false
 numerico = cadena2.isnumeric()
 
-# Si es alfanumerico de devuelve true y si no false (O sea si el str contiene numeros o la variable contiene numeros devuelve false y si solo contiene strings devuelve true
+# Si es alfanumerico de devuelve true y si no false (O sea si el str contiene numeros o la variable contiene numeros devuelve false y si solo contiene strings sin caracteres especiales, devuelve true
 alfanumerico = cadena1.isalpha()
 
-print(numerico)
+# Busca una cadena en otra cadena, pero esta cuenta cuantas coincidencias hay en esa cadena
+
+
+print(alfanumerico)
