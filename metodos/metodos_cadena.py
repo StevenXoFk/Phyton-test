@@ -1,4 +1,4 @@
-cadena1 = "HOLAAAA1"
+cadena1 = "HOLAAAA"
 cadena2 = "holaaaaaa2"
 
 # Convierte el upper() todo el texto en mayuscula
