@@ -34,5 +34,7 @@ empieza = cadena1.startswith("h")
 # Verifica si una cadena termina con otra cadena dada, si es asi devuelve true
 termina = cadena1.endswith("e")
 
+# Remplaza un pedazo de cadena dada por otra
+cadena_nueva = cadena1.replace("we", "wi")
 
-print(termina)
+print(cadena_nueva)
