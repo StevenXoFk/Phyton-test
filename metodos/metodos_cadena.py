@@ -11,6 +11,9 @@ minus = cadena1.lower()
 first_mayus = cadena2.capitalize()
 
 # Busca una cadena en otra cadena, y si no encuentra coincidencia devuelve -1
-encontrar = cadena1.find("2")
+encontrar = cadena1.find("1")
 
-print(first_mayus)
+# Busca una cadena en otra cadena, pero si no encuenta coincidencia devuelve un error
+encontrar_index = cadena2.find("2")
+
+print(encontrar)
