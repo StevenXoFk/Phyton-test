@@ -31,5 +31,8 @@ caracteres = len(cadena2)
 # Verifica si una cadena empieza con otra cadena dada, si es asi devuelve true
 empieza = cadena1.startswith("h")
 
+# Verifica si una cadena termina con otra cadena dada, si es asi devuelve true
+termina = cadena1.endswith("e")
 
-print(empieza)
+
+print(termina)
