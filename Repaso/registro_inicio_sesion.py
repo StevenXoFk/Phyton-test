@@ -23,3 +23,22 @@ elif len(contraseña) < 5 or len(contraseña) <= 1:
   registro_fail()
 else:
   print(f'Bienvenido {usuario}, te has registrado exitosamente, ahora inicia sesion')
+  inicio_usuario = input("nombre de usuario: ")
+  inicio_contraseña = input("contraseña: ")
+
+def incio_usuario_fail():
+  print("Nombre de usuario incorrecto")
+  inicio_usuario = input("nombre de usuario: ")
+  inicio_contraseña = input("contraseña: ")
+
+def incio_contraseña_fail():
+  print("Contraseña incorrecta")
+  inicio_usuario = input("nombre de usuario: ")
+  inicio_contraseña = input("contraseña: ")
+  
+if inicio_usuario != usuario:
+  incio_usuario_fail()
+elif inicio_contraseña != contraseña:
+  incio_contraseña_fail()
+elif inicio_usuario == usuario and inicio_contraseña == contraseña:
+  print("Iniciando sesion..")
