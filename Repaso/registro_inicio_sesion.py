@@ -22,4 +22,4 @@ elif len(contraseña) < 5 or len(contraseña) <= 1:
   print("Tu contraseña es muy corta, intenta de nuevo")
   registro_fail()
 else:
-  print(f'Bienvenido {usuario}, te has registrado exitosamente')
+  print(f'Bienvenido {usuario}, te has registrado exitosamente, ahora inicia sesion')
