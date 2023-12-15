@@ -1,5 +1,6 @@
 cadena1 = "holawe"
 cadena2 = "holaaaaaa2"
+cadena3 = "hola,pe,po,pi,pu,pa,pe"
 
 # Convierte el upper() todo el texto en mayuscula
 mayus = cadena2.upper()
@@ -37,4 +38,7 @@ termina = cadena1.endswith("e")
 # si el valor 1, encuentra jna coincidencia en la cadena original, remplaza el valor 1 por el valor del 2
 cadena_nueva = cadena1.replace("we", "wi")
 
-print(cadena_nueva)
+# Separa cadenas con cadenas que le pasemos y las convierte en lista
+separar = cadena3.split(",")
+
+print(separar)
