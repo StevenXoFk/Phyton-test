@@ -15,16 +15,10 @@ def registro_fail():
 if len(usuario) > 20:
   print("Tu nombre de usuario exede los 20 caracteres, vuelve a intentarlo")
   registro_fail()
-elif len(usuario) <= 3:
+elif len(usuario) <= 3 or len(usuario) <= 1:
   print("Tu nombre de usuario tiene menos de 4 caracteres, intentalo de nuevo")
   registro_fail()
-elif len(usuario) <= 1:
-  print("Tu nombre de usuario tiene menos de 4 caracteres, intentalo de nuevo")
-  registro_fail()
-elif len(contraseña) < 5:
-  print("Tu contraseña es muy corta, intenta de nuevo")
-  registro_fail()
-elif len(contraseña) <= 1:
+elif len(contraseña) < 5 or len(contraseña) <= 1:
   print("Tu contraseña es muy corta, intenta de nuevo")
   registro_fail()
 else:
