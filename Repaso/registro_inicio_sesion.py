@@ -21,3 +21,5 @@ elif len(usuario) <= 3:
 elif len(contraseña) < 4:
   print("Tu contraseña es muy corta, intenta de nuevo")
   registro_fail()
+else:
+  print("Te haz registrado exitosamente")
