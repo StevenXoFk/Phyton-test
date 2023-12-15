@@ -18,8 +18,8 @@ if len(usuario) > 20:
 elif len(usuario) <= 3:
   print("Tu nombre de usuario tiene menos de 4 caracteres, intentalo de nuevo")
   registro_fail()
-elif len(contraseña) < 4:
+elif len(contraseña) < 5:
   print("Tu contraseña es muy corta, intenta de nuevo")
   registro_fail()
 else:
-  print("Te haz registrado exitosamente")
+  print(f'Bienvenido {usuario}, te has registrado exitosamente')
