@@ -10,4 +10,7 @@ lista.append("LOOOOOOL")
 # Agrega un elemento a la lista en un indice/posición especifica
 lista.insert(1, "Didididi")
 
+# Agrega varios elementos a la lista
+lista.extend(True, False, 20202, "meme", "pepeepep")
+
 print(lista)
