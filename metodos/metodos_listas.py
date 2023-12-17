@@ -13,4 +13,6 @@ lista.insert(1, "Didididi")
 # Agrega varios elementos a la lista
 lista.extend([True, False, 20202, "meme", "pepeepep"])
 
+# Elimina un elemento de la lista por su indice/posición
+lista.pop(2)
 print(lista)
