@@ -17,7 +17,9 @@ lista.extend([True, False, 20202, "meme", "pepeepep"])
 lista.pop(-1) # -1 para eliminar el ultimo, -2 el ante ultimo y asi sucesivamente 
 
 # Remueve un elemento de la lista por su valor
-lista.remove("Steven")
+# lista.remove("Steven")
+
+
 
 #Elimina todos los elementos de la lista
 lista.clear()
