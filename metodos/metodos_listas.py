@@ -19,4 +19,7 @@ lista.pop(-1) # -1 para eliminar el ultimo, -2 el ante ultimo y asi sucesivament
 # Remueve un elemento de la lista por su valor
 lista.remove("Steven")
 
+#Elimina todos los elementos de la lista
+lista.clear()
+
 print(lista)
