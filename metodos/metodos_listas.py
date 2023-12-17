@@ -11,6 +11,6 @@ lista.append("LOOOOOOL")
 lista.insert(1, "Didididi")
 
 # Agrega varios elementos a la lista
-lista.extend(True, False, 20202, "meme", "pepeepep")
+lista.extend([True, False, 20202, "meme", "pepeepep"])
 
 print(lista)
