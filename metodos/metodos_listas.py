@@ -23,5 +23,5 @@ lista.remove(10)
 # lista.clear()
 
 # Ordena la lista ( si se usa el parametro reverse=True se ordena de mayor a menor)
-lista.sort
+lista.sort(reverse=True)
 print(lista)
