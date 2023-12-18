@@ -19,4 +19,4 @@ print(f'El curso de dalto dura un {diferencia_con_promedio}% menos que el mas pr
 
 #Ejercicio b
  # calculando el procentaje vacio
- vacio_promedio = 100 - crudo_promedio / otros_cursos_promedio * 100
+ vacio_promedio = 100 - otros_cursos_promedio * 1000 // crudo_promedio / 10
