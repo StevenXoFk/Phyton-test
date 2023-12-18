@@ -23,5 +23,8 @@ lista.remove(10)
 # lista.clear()
 
 # Ordena la lista ( si se usa el parametro reverse=True se ordena de mayor a menor)
-lista.sort(reverse=True)
+#lista.sort(reverse=True)
+
+# Invirtiendo los elementos de una lista
+lista.reverse()
 print(lista)
