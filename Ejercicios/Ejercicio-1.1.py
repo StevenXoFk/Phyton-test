@@ -13,18 +13,24 @@ diferencia_con_min = 100 - dalto_curso / otros_cursos_min * 100
 diferencia_con_max = 100 - dalto_curso * 1000 // otros_cursos_max / 10
 diferencia_con_promedio = 100 - dalto_curso / otros_cursos_promedio * 100
 #Ejercicio A
+print("-----------------")
 print(f'El curso de dalto dura un {diferencia_con_min}% menos que el mas rapido')
 print(f'El curso de dalto dura un {diferencia_con_max}% menos que el mas lento')
 print(f'El curso de dalto dura un {diferencia_con_promedio}% menos que el mas promedio')
+print("-----------------")
 
 #Ejercicio b
  # calculando el procentaje vacio
 vacio_promedio = 100 - otros_cursos_promedio * 1000 // crudo_promedio / 10
 vacio_dalto = 100 - dalto_curso * 1000 // crudos_dalto / 10
  
- 
+ print("-----------------")
 print(f'este curso elimina un {vacio_promedio}% de tiempo vacio del promedio')
 print(f'este curso elimina un {vacio_dalto}% de tiempo vacio del promedio')
+print("-----------------")
 
 # Mostrando la diferencia de ver 10 horas
-print(f'entonces equivaldria un {otros_cursos_promedio * 100 // crudos_dalto / 10}')
+print("-----------------")
+print(f'entonces equivaldria un {otros_cursos_promedio * 100 // dalto_curso / 10}')
+print(f'entonces equivaldria un {dalto_curso * 100 // otros_cursos_promedio / 10}')
+print("-----------------")
