@@ -2,6 +2,6 @@
 numero = input("Dame un número: ")
 
 # Convertir el string a int o sea convertir el texto de número a numero
-resultado = int(numero)*2
+resultado = int(numero) * 2
 
 print(resultado)
