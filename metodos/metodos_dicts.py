@@ -5,6 +5,8 @@ diccionario = {
 }
 
 # claves = diccionario.keys() # Me dice que items hay en el diccionario
-claves = diccionario.get("nombre") # Me devuelve el item que mencioné 
+
+# Obteniendo un elemento con get(), y si no encuentra nada no me lanza una excepción y no se para el programa 
+claves = diccionario.get("nombre") 
 
 print(claves)
