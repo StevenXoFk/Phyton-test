@@ -8,3 +8,4 @@ resultado = int(numero) * 2
 resultado1 = float(numero) * 2
 
 print(resultado1)
+
