@@ -13,4 +13,10 @@ valor = diccionario.get("nombre")
 # Elimina todo el diccionario
 #diccionario.clear()
 
-print(diccionario)
+# Elimina un elemento del diccionario
+diccionario.pop("years")
+
+# Obteniendo un dict_item iterable
+dict_iterable = diccionario.items()
+
+print(dict_iterable)
