@@ -4,9 +4,13 @@ diccionario = {
   "years": 99
 }
 
-# claves = diccionario.keys() # Me dice que items hay en el diccionario
+# Devuelve un elemento dict_item
+claves = diccionario.keys()
 
 # Obteniendo un elemento con get(), y si no encuentra nada no me lanza una excepción y no se para el programa 
-claves = diccionario.get("nombre") 
+valor = diccionario.get("nombre") 
 
-print(claves)
+# Elimina todo el diccionario
+#diccionario.clear()
+
+print(diccionario)
