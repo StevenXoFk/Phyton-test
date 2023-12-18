@@ -25,3 +25,6 @@ vacio_dalto = 100 - dalto_curso * 1000 // crudos_dalto / 10
  
 print(f'este curso elimina un {vacio_promedio}% de tiempo vacio del promedio')
 print(f'este curso elimina un {vacio_dalto}% de tiempo vacio del promedio')
+
+# Mostrando la diferencia de ver 10 horas
+print(f'entonces equivaldria un {otros_cursos_promedio * 100 // crudos_dalto / 10}')
