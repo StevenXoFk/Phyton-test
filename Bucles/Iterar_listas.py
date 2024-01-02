@@ -24,3 +24,9 @@ for num,i in enumerate(numeros):
   valor = i
   indice = num
   print(f'indice: {indice} y valor: {valor}')
+
+# Usando for/else
+for numero in numeros:
+  print(f'El valor es: {numero}')
+else:
+  print("El bucle terminó ")
