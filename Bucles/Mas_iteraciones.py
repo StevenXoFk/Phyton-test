@@ -1,5 +1,6 @@
 frutas = ["pera", "manzanas","mango","banana","naranja","granada","uvas"]
 texto = "Hola Buenas muy bonita tarde"
+numeros = [1,9,10,72]
 
 for fruta in frutas:
   print(fruta)
@@ -21,3 +22,8 @@ print("Bucle terminado")
 # recorrer una cadena de texto
 for letra in texto:
   print(letra)
+  
+# for en una sola linea de codigo (multiplicsndo los numeros)
+
+numeros_duplicados = [x*2 for x in numeros]
+print(numeros_duplicados)
