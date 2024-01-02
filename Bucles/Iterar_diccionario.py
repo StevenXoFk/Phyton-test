@@ -10,7 +10,7 @@ for key in diccionario:
   print(key)
 
 #Recorriendo el diccionario para obtener las claves y el valor
-for datos in diccionario.item():
+for datos in diccionario.items():
   key = datos[0]
   valor = datos[1]
   print(f'{key} es: {valor}')
