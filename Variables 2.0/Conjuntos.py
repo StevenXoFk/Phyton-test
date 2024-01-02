@@ -17,5 +17,10 @@ resultado2 = conjunto4 <= conjunto3 # Otra forma de Verificar los subconjuntos
 resultado3 = conjunto3.issuperset(conjunto4) #conjunto3 es un superconjunto de conjunto4
 resultado4 = conjunto4 < conjunto3 # Otra forma de Verificar los superconjuntos
 
+#Verifica si hay un numero en común
+conjunto5 = {2,9,0,1}
+conjunto6 = {3,8,4}
 
-print(resultado3)
+resultado5 = conjunto6.isdisjoint(conjunto5)
+
+print(resultado5)
