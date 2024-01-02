@@ -13,4 +13,9 @@ conjunto4 = {1,3,4}
 resultado = conjunto4.issubset(conjunto3) #conjunto4 es un subconjunto de conjunto3
 resultado2 = conjunto4 <= conjunto3 # Otra forma de Verificar los subconjuntos
 
-print(resultado2)
+# Verificar si es un superconjunto
+resultado3 = conjunto3.issuperset(conjunto4) #conjunto3 es un superconjunto de conjunto4
+resultado4 = conjunto4 < conjunto3 # Otra forma de Verificar los superconjuntos
+
+
+print(resultado3)
