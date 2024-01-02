@@ -1,8 +1,8 @@
 #=============================================
 # TODO LO SIGUIENTE TAMBIEN FUNCIONA CON TUPLAS Y Conjuntos       
 #=============================================
-animales = ["perro","gato","loro","mono","pez"]
-numeros = [1,90,62,77,82]
+animales = {"perro","gato","loro","mono","pez"}
+numeros = {1,90,62,77,82}
 orden = 0
 
 #Recorriendo la conjunto con for
@@ -18,10 +18,6 @@ for animal,numero in zip(animales,numeros):
   print (f'Mostrando conjunto 1: {animal}')
   print (f'Mostrando conjunto 2: {numero}')
 
-# Forma no optima de recorrer numeros
-for num in range(len(numeros)):
-  print(numeros[num])
-  
 # Forma optima de recorrer una conjunto con su indice
 for num,i in enumerate(numeros):
   valor = i
