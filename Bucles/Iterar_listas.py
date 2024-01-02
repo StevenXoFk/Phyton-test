@@ -19,7 +19,7 @@ for animal,numero in zip(animales,numeros):
 for num in range(len(numeros)):
   print(numeros[num])
   
-# Forma optima
+# Forma optima de recorrer una lista con su indice
 for num,i in enumerate(numeros):
   valor = i
   indice = num
