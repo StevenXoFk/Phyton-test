@@ -1,5 +1,6 @@
 animales = ["perro","gato","loro","mono","pez"]
 numeros = [1,90,62,77,82]
+orden = 0
 
 #Recorriendo la lista con for
 for animal in animales:
@@ -11,5 +12,6 @@ for numero in numeros:
   
 #Iterando 2 listas del mismo tamaño al mismo tiempo
 for animal,numero in zip(animales,numeros):
-  print (f'Mostrando lista 1: {animal}')
-  print (f'Mostrando lista 2: {numero}')
+  orden + 1
+  print (f'-{orden} Mostrando lista 1: {animal}')
+  print (f'-{orden} Mostrando lista 2: {numero}')
