@@ -14,3 +14,13 @@ for numero in numeros:
 for animal,numero in zip(animales,numeros):
   print (f'Mostrando lista 1: {animal}')
   print (f'Mostrando lista 2: {numero}')
+
+# Forma no optima de recorrer numeros
+for num in range(len(numeros)):
+  print(numeros[num])
+  
+# Forma optima
+for num,i in enumerate(numeros):
+  valor = i
+  indice = num
+  print(f'indice: {indice} y valor: {valor}')
