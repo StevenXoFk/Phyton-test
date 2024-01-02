@@ -1,3 +1,4 @@
+#===================================================== TODO LO SIGUIENTE TAMBIEN FUNCIONA CON TUPLAS Y                          LISTAS       =====================================================
 animales = ["perro","gato","loro","mono","pez"]
 numeros = [1,90,62,77,82]
 orden = 0
