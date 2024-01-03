@@ -16,6 +16,11 @@ def saludar(nombre,sexo,edad):
       pronombre = "joven"
     elif edad >= 18:
       pronombre = "señorito"
+  else:
+    if edad < 18:
+      pronombre = "joven"
+    elif edad >= 18:
+      pronombre = "señorit@"
   print(f'Hola {pronombre} {nombre} como estas?')
 
-saludar("Pepe","hombre",10)
+saludar("Pepe","hojrj",19)
