@@ -15,7 +15,14 @@ def registro_fail():
   elif len(contraseña) < 5 or len(contraseña) <= 1:
     print("Tu contraseña es muy corta, intenta de nuevo")
     volver_registro()
+  else:
+    comprobar_inicio = True
+    comprobar_registro = False
     
+def inicio_fail():
+  print("Hola we")
+  
+  
 print("""---------------------------------------------------------------
 Bienvenido a PichaWeb, registrate para acceder a
 nuestro sistema, recuerda que tu nombre de usuario
@@ -26,9 +33,12 @@ usuario = input("Registrata tu nombre de usuario maximo 20 caracteres: ")
 contraseña = input("Pon tu contraseña")
 comprobar_registro = True
 
-while comprobar == True:
+while comprobar_registro == True:
   registro_fail()
 
-print(f'Bienvenido {usuario}, te has registrado exitosamente, ahora inicia sesion')
+if comprobar_inicio == True:
+  print(f'Bienvenido {usuario}, te has registrado exitosamente, ahora inicia sesion')
   inicio_usuario = input("nombre de usuario: ")
   inicio_contraseña = input("contraseña: ")
+  while comprobar_inicio == True:
+    inicio_fail()
