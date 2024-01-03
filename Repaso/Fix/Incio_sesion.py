@@ -28,4 +28,7 @@ comprobar = True
 
 while comprobar == True:
   registro_fail()
-  
+
+print(f'Bienvenido {usuario}, te has registrado exitosamente, ahora inicia sesion')
+  inicio_usuario = input("nombre de usuario: ")
+  inicio_contraseña = input("contraseña: ")
