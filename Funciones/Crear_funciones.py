@@ -23,4 +23,9 @@ def saludar(nombre,sexo,edad):
       pronombre = "señorit@"
   print(f'Hola {pronombre} {nombre} como estas?')
 
-saludar("Pepe","hojrj",19)
+saludar("Pepe","Hombre",19)
+saludar("Pepe","Hombre",9)
+saludar("Marta","mujer",19)
+saludar("Marta","mujer",9)
+saludar("Roberto","No binario",19)
+saludar("Roberto","no binario",9)
