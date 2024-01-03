@@ -24,7 +24,7 @@ de 20
 ---------------------------------------------------------------""")
 usuario = input("Registrata tu nombre de usuario maximo 20 caracteres: ")
 contraseña = input("Pon tu contraseña")
-comprobar = True
+comprobar_registro = True
 
 while comprobar == True:
   registro_fail()
